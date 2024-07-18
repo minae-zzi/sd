@@ -21,6 +21,9 @@ cd "$REACTOR_NODE_DIR"
 # Run install.py
 python install.py
 
+# Install insightface
+pip install insightface==0.7.3
+
 # Create necessary directories for models
 mkdir -p "$COMFYUI_DIR/models/ultralytics/bbox"
 mkdir -p "$COMFYUI_DIR/models/sams"
