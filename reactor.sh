@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Update and install necessary packages
-sudo apt-get update
-sudo apt-get install -y build-essential cmake git libgl1-mesa-glx wget
+apt-get update
+apt-get install -y build-essential cmake git libgl1-mesa-glx wget
 
 # Navigate to the custom_nodes directory
 COMFYUI_DIR="/workspace/ComfyUI"
