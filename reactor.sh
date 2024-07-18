@@ -18,7 +18,8 @@ fi
 # Navigate to the ReActor node directory
 cd "$REACTOR_NODE_DIR"
 
-# Run install.py
+# Run install.py twice as mentioned
+python install.py
 python install.py
 
 # Install insightface
